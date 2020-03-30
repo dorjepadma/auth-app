@@ -26,7 +26,7 @@ describe('auth routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),
-          username: 'spot',
+          username: 'trixie',
           __v: 0
         });
       });
@@ -40,7 +40,7 @@ describe('auth routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),
-          username: 'spot',
+          username: 'trixie',
           __v: 0
         });
       });
